@@ -1,59 +1,53 @@
 #pragma once
-
-//STD
 #include <iostream>
 #include <string>
 #include <vector>
+#include "Inventory.h"
+#include "item.h"
 
 //Crear clase Character
 class
 	Character {
 public:
 	Character() = default;
-
-	Character(int healt) : m_healt(healt) {}
+	Character(int health) : m_health(health) {}
 
 	void
 		rebirth() {
 		if (!isCharacterAlive && m_health <= 0) {
-			std::cout << "El personaje a revivido" << std::endl;
+			std::cout << "El personaje ha revivido en el Respawn" << std::endl;
 			isCharacterAlive = true;
 		}
 	}
 
 	int
-		getHealt() const {
-		return m_healt;
+		getHealth() const {
+		return m_health;
 	}
 
 	void
-		setHealt(int healt) {
-		m_healt = healt;
+		setHealth(int health) {
+		m_health = health;
 	}
 
 private:
 	bool isCharacterAlive = false;
 
 protected:
-	int m_healt;
+	int m_health;
 };
-
-
-//Crear clase Inventario
-
 
 
 int
 main() {
-	Character pablo(150);
-	pablo.getHealt();
-	std::cout << pablo.getHealt() << std::endl;
-	pablo.setHealt(-50);
-	std::cout << pablo.getHealt() << std::endl;
+	Inventory inventory;
+	inventory.addItem("Pocion de vida", 5);
+	inventory.addItem("Pocion de mana", 3);
+	inventory.addItem("Diamantes", 65);
 
-	if (pablo.getHealt() <= 0) {
-		std::cout << "Pablo ha muerto" << std::endl;
-		pablo.rebirth();
-	}
+	inventory.useItem("Pocion de vida", 2);
+	inventory.showInventory();
+
+	std::cin.get();
 	return 0;
 }

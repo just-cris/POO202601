@@ -22,6 +22,8 @@
     <ClCompile Include="..\source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\Inventory.h" />
+    <ClInclude Include="..\include\item.h" />
     <ClInclude Include="..\include\Prerequisites.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
