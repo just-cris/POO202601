@@ -13,21 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de encabezado\ProgramingPatterns">
+      <UniqueIdentifier>{cd01c92c-9f6a-4839-896f-82e7676e509e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ProgramingPatterns\AbstractFactory">
+      <UniqueIdentifier>{916bdda8-e4de-4d47-a1a5-08b438e76003}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\source\main.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClInclude Include="include\item.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Prerequisites.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Inventory.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\MiSingleton.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\FactoryMethod.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\ProductoA.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\ProductoB.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\FabricaAbstractaA.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\AbstractFactory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\main2.cpp">
+      <Filter>Archivos de recursos</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\include\Prerequisites.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\item.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\Inventory.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
+    <ClCompile Include="include\ProgrammingPatterns\main2.cpp">
+      <Filter>Archivos de encabezado\ProgramingPatterns</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

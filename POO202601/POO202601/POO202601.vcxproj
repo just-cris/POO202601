@@ -19,12 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\source\main.cpp" />
+    <ClInclude Include="include\Inventory.h" />
+    <ClInclude Include="include\item.h" />
+    <ClInclude Include="include\Prerequisites.h" />
+    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory.h" />
+    <ClInclude Include="include\ProgrammingPatterns\FabricaAbstractaA.h" />
+    <ClInclude Include="include\ProgrammingPatterns\FactoryMethod.h" />
+    <ClInclude Include="include\ProgrammingPatterns\MiSingleton.h" />
+    <ClInclude Include="include\ProgrammingPatterns\ProductoA.h" />
+    <ClInclude Include="include\ProgrammingPatterns\ProductoB.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\Inventory.h" />
-    <ClInclude Include="..\include\item.h" />
-    <ClInclude Include="..\include\Prerequisites.h" />
+    <ClCompile Include="include\main2.cpp" />
+    <ClCompile Include="include\ProgrammingPatterns\main2.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
