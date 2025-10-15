@@ -28,6 +28,8 @@
     <ClInclude Include="include\ProgrammingPatterns\MiSingleton.h" />
     <ClInclude Include="include\ProgrammingPatterns\ProductoA.h" />
     <ClInclude Include="include\ProgrammingPatterns\ProductoB.h" />
+    <ClInclude Include="Prototype.h" />
+    <ClInclude Include="PrototypeConcreto.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="include\main2.cpp" />

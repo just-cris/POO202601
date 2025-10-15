@@ -19,6 +19,12 @@
     <Filter Include="Archivos de encabezado\ProgramingPatterns\AbstractFactory">
       <UniqueIdentifier>{916bdda8-e4de-4d47-a1a5-08b438e76003}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\Builder">
+      <UniqueIdentifier>{04e7f9f7-b530-4958-9244-8e3ea664671a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Prototype">
+      <UniqueIdentifier>{ff51b675-fc22-48d5-9a33-5f59d4e4a41b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\item.h">
@@ -47,6 +53,12 @@
     </ClInclude>
     <ClInclude Include="include\ProgrammingPatterns\AbstractFactory.h">
       <Filter>Archivos de encabezado\ProgramingPatterns\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype.h">
+      <Filter>Archivos de encabezado\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="PrototypeConcreto.h">
+      <Filter>Archivos de encabezado\Prototype</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
