@@ -25,6 +25,9 @@
     <Filter Include="Archivos de encabezado\Prototype">
       <UniqueIdentifier>{ff51b675-fc22-48d5-9a33-5f59d4e4a41b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\ProgramingPatterns\Adapter">
+      <UniqueIdentifier>{a0a03fff-c8c6-443e-9026-0f199c7e3030}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\item.h">
@@ -60,13 +63,22 @@
     <ClInclude Include="PrototypeConcreto.h">
       <Filter>Archivos de encabezado\Prototype</Filter>
     </ClInclude>
+    <ClInclude Include="InterfazNueva.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfazVieja.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Adaptador.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Adapter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="include\main2.cpp">
       <Filter>Archivos de recursos</Filter>
     </ClCompile>
     <ClCompile Include="include\ProgrammingPatterns\main2.cpp">
-      <Filter>Archivos de encabezado\ProgramingPatterns</Filter>
+      <Filter>Archivos de encabezado\ProgramingPatterns\Adapter</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

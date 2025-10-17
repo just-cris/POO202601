@@ -1,20 +1,17 @@
 #include "Prerequisites.h"
-#include "ProgrammingPatterns/MiSingleton"
-#include <iostream>
+#include "ProgramingPatterns/Adapter/InterfazNueva.h"
+#include "ProgramingPatterns/Adapter/InterfazVieja.h"
+#include "ProgramingPatterns/Adapter/Adaptador.h"
 
-//inicializar instancia
-MiSingleton* MiSingleton::instance = nullptr;
+main() {
+  //crear una instancia de la interfaz vieja
+  interfazVieja* objetoViejo = new interfazVieja();
+  interfazNueva* objetoNuevo = new Adaptador(objetoViejo);
 
-int main{
-  //estructura main
-  MiSingleton* singleton = MiSingleton::getInstance();
-  singleton->setData(42);
-  std::cout << "Valor del Singleton: " << singleton->getData() << std::endl;
+  //usar objeto nuevo que adapta el viejo
+  objetoNuevo->metodoNuevo();
 
-  Fabrica* fabrica = new fabricaA(); //fabrica genera tesla (fabrica a)
-  producto* producto = fabrica->crearProducto(); //producto de tesla (producto a)
-  producto->operacion();
-  delete producto;
-  delete fabrica;
-  return 0;
+  //liberar memoria
+  delete objetoViejo;
+  delete objetoNuevo;
 }

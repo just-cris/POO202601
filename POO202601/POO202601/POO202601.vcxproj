@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Adaptador.h" />
     <ClInclude Include="include\Inventory.h" />
     <ClInclude Include="include\item.h" />
     <ClInclude Include="include\Prerequisites.h" />
@@ -28,6 +29,8 @@
     <ClInclude Include="include\ProgrammingPatterns\MiSingleton.h" />
     <ClInclude Include="include\ProgrammingPatterns\ProductoA.h" />
     <ClInclude Include="include\ProgrammingPatterns\ProductoB.h" />
+    <ClInclude Include="InterfazNueva.h" />
+    <ClInclude Include="InterfazVieja.h" />
     <ClInclude Include="Prototype.h" />
     <ClInclude Include="PrototypeConcreto.h" />
   </ItemGroup>
