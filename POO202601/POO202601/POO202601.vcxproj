@@ -19,6 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\GameProgrammingPatterns\Observer\DisplayDevice.h" />
+    <ClInclude Include="include\GameProgrammingPatterns\Observer\Observer.h" />
+    <ClInclude Include="include\GameProgrammingPatterns\Observer\TemperatureSensor.h" />
     <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\AbstractFactory.h" />
     <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\FabricaAbstractaA.h" />
     <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\FactoryMethod.h" />

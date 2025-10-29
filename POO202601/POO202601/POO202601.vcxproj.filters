@@ -34,6 +34,12 @@
     <Filter Include="Archivos de encabezado\ProgramingPatterns\Proxy">
       <UniqueIdentifier>{869e042f-c91d-454a-a5c7-26efd9d954dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\GameProgrammingPatterns">
+      <UniqueIdentifier>{28063d21-8fb1-42be-bbe1-f0d1cc2d6c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameProgrammingPatterns\Observer">
+      <UniqueIdentifier>{df60c75e-2eef-4d10-b44e-a2df7cf46e5c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\AbstractFactory.h">
@@ -98,6 +104,15 @@
     </ClInclude>
     <ClInclude Include="include\ProgrammingPatterns\Composite\SistemaCarpeta.h">
       <Filter>Archivos de encabezado\ProgramingPatterns\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\Observer\Observer.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\Observer\TemperatureSensor.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\Observer\DisplayDevice.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns\Observer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
