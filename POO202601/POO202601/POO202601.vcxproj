@@ -19,24 +19,30 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Adaptador.h" />
-    <ClInclude Include="include\Inventory.h" />
-    <ClInclude Include="include\item.h" />
-    <ClInclude Include="include\Prerequisites.h" />
-    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory.h" />
-    <ClInclude Include="include\ProgrammingPatterns\FabricaAbstractaA.h" />
-    <ClInclude Include="include\ProgrammingPatterns\FactoryMethod.h" />
-    <ClInclude Include="include\ProgrammingPatterns\MiSingleton.h" />
-    <ClInclude Include="include\ProgrammingPatterns\ProductoA.h" />
-    <ClInclude Include="include\ProgrammingPatterns\ProductoB.h" />
-    <ClInclude Include="InterfazNueva.h" />
-    <ClInclude Include="InterfazVieja.h" />
-    <ClInclude Include="Prototype.h" />
-    <ClInclude Include="PrototypeConcreto.h" />
+    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\AbstractFactory.h" />
+    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\FabricaAbstractaA.h" />
+    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\FactoryMethod.h" />
+    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\ProductoA.h" />
+    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\ProductoB.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Adapter\Adaptador.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Adapter\InterfazNueva.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Adapter\InterfazVieja.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Composite\Archivo.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Composite\Carpeta.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Composite\Component.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Composite\Composite.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Composite\Hoja.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Composite\Sistema.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Composite\SistemaArchivo.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Composite\SistemaCarpeta.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Prototype\Prototype.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Prototype\PrototypeConcreto.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Proxy\Proxy.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Proxy\Sujeto.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Proxy\SujetoReal.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="include\main2.cpp" />
-    <ClCompile Include="include\ProgrammingPatterns\main2.cpp" />
+    <ClCompile Include="source\main2.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

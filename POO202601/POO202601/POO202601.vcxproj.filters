@@ -28,57 +28,81 @@
     <Filter Include="Archivos de encabezado\ProgramingPatterns\Adapter">
       <UniqueIdentifier>{a0a03fff-c8c6-443e-9026-0f199c7e3030}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\ProgramingPatterns\Composite">
+      <UniqueIdentifier>{5bed00d9-34e1-4e09-b3cb-789ba72fa884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ProgramingPatterns\Proxy">
+      <UniqueIdentifier>{869e042f-c91d-454a-a5c7-26efd9d954dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\item.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Prerequisites.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Inventory.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ProgrammingPatterns\MiSingleton.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ProgrammingPatterns\FactoryMethod.h">
-      <Filter>Archivos de encabezado\ProgramingPatterns</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ProgrammingPatterns\ProductoA.h">
+    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\AbstractFactory.h">
       <Filter>Archivos de encabezado\ProgramingPatterns\AbstractFactory</Filter>
     </ClInclude>
-    <ClInclude Include="include\ProgrammingPatterns\ProductoB.h">
+    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\FabricaAbstractaA.h">
       <Filter>Archivos de encabezado\ProgramingPatterns\AbstractFactory</Filter>
     </ClInclude>
-    <ClInclude Include="include\ProgrammingPatterns\FabricaAbstractaA.h">
+    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\FactoryMethod.h">
       <Filter>Archivos de encabezado\ProgramingPatterns\AbstractFactory</Filter>
     </ClInclude>
-    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory.h">
+    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\ProductoA.h">
       <Filter>Archivos de encabezado\ProgramingPatterns\AbstractFactory</Filter>
     </ClInclude>
-    <ClInclude Include="Prototype.h">
+    <ClInclude Include="include\ProgrammingPatterns\AbstractFactory\ProductoB.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Adapter\Adaptador.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Adapter\InterfazNueva.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Adapter\InterfazVieja.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Proxy\Sujeto.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Proxy\SujetoReal.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Proxy\Proxy.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Prototype\Prototype.h">
       <Filter>Archivos de encabezado\Prototype</Filter>
     </ClInclude>
-    <ClInclude Include="PrototypeConcreto.h">
+    <ClInclude Include="include\ProgrammingPatterns\Prototype\PrototypeConcreto.h">
       <Filter>Archivos de encabezado\Prototype</Filter>
     </ClInclude>
-    <ClInclude Include="InterfazNueva.h">
-      <Filter>Archivos de encabezado\ProgramingPatterns\Adapter</Filter>
+    <ClInclude Include="include\ProgrammingPatterns\Composite\Archivo.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Composite</Filter>
     </ClInclude>
-    <ClInclude Include="InterfazVieja.h">
-      <Filter>Archivos de encabezado\ProgramingPatterns\Adapter</Filter>
+    <ClInclude Include="include\ProgrammingPatterns\Composite\Carpeta.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Composite</Filter>
     </ClInclude>
-    <ClInclude Include="Adaptador.h">
-      <Filter>Archivos de encabezado\ProgramingPatterns\Adapter</Filter>
+    <ClInclude Include="include\ProgrammingPatterns\Composite\Component.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Composite\Composite.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Composite\Hoja.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Composite\Sistema.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Composite\SistemaArchivo.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Composite\SistemaCarpeta.h">
+      <Filter>Archivos de encabezado\ProgramingPatterns\Composite</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="include\main2.cpp">
+    <ClCompile Include="source\main2.cpp">
       <Filter>Archivos de recursos</Filter>
-    </ClCompile>
-    <ClCompile Include="include\ProgrammingPatterns\main2.cpp">
-      <Filter>Archivos de encabezado\ProgramingPatterns\Adapter</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
